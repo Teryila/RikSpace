@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php bloginfo('name'); ?></title>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="https://i.imgur.com/sSLTEmP.jpg" alt="RikSpace Logo">
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+
+    <section>
+        <!-- Your content goes here -->
+
+        <h2>Image Gallery</h2>
+
+        <div class="image-container">
+            <img src="https://i.imgur.com/Q5ooESn.png" alt="suitable comfort plane">
+            <img src="https://i.imgur.com/Oks3olim.png" alt="suitable comfort plane">
+            <img src="https://i.imgur.com/T3Xdpsi.jpg" alt="always on your comfort fleet">
+            <!-- Add more images as needed -->
+        </div>
+
+    </section>
+
+    <!-- Include the Footer -->
+    <?php get_footer(); ?>
+
+    <!-- Add any additional scripts as needed -->
+
+    <!-- Floating navigation button script -->
+    <button class="scroll-btn" onclick="topFunction()">^</button>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
